@@ -3,23 +3,23 @@ const questoes = [
     { // Questao 1
         pergunta: "O QUE REPRESENTA UM DIAGRAMA DE BLOCOS DE CONFIABILIDADE (DBC)?",
         opcoes: [
-            "UM FLUXOGRAMA QUE DESCREVE O FUNCIONAMENTO LÓGICO DO SOFTWARE.",
-            "UM MODELO GRÁFICO QUE MOSTRA COMO OS COMPONENTES DE UM SISTEMA CONTRIBUEM PARA A CONFIABILIDADE TOTAL.",
-            "UM DIAGRAMA QUE INDICA A ORDEM DE EXECUÇÃO DAS TAREFAS EM UM PROGRAMA."
+            "Um fluxograma que descreve o funcionamento lógico do software.",
+            "Um modelo gráfico que mostra como os componentes de um sistema contribuem para a confiabilidade total.",
+            "Um diagrama que indica a ordem de execução das tarefas em um programa."
         ],
-        respostaCorreta: "UM MODELO GRÁFICO QUE MOSTRA COMO OS COMPONENTES DE UM SISTEMA CONTRIBUEM PARA A CONFIABILIDADE TOTAL."
+        respostaCorreta: "Um modelo gráfico que mostra como os componentes de um sistema contribuem para a confiabilidade total."
     },
     { // Questao 2
         pergunta: "EM UM DBC, OS BLOCOS GERALMENTE REPRESENTAM:",
         opcoes: [
-            "OS USUÁRIOS FINAIS DO SISTEMA.",
-            "COMPONENTES OU SUBSISTEMAS QUE PODEM FALHAR.",
-            "ENTRADAS E SAÍDAS DE DADOS DE UM ALGORITMO."
+            "Os usuários finais do sistema.",
+            "Componentes ou subsistemas que podem falhar.",
+            "Entradas e saídas de dados de um algoritmo."
         ],
-        respostaCorreta: "COMPONENTES OU SUBSISTEMAS QUE PODEM FALHAR."
+        respostaCorreta: "Componentes ou subsistemas que podem falhar."
     },
     { // Questao 3 - PONTUAÇÃO DUPLA
-        pergunta: "Quando os blocos de um DBC estão conectados em série, isso significa que:",
+        pergunta: "QUANDO OS BLOCOS DE UM DBC ESTÃO CONECTADOS EM SÉRIE, ISSO SIGNIFICA QUE :",
         opcoes: [
             "Todos devem funcionar para que o sistema funcione.",
             "Basta que um deles funcione para o sistema funcionar.",
@@ -29,7 +29,7 @@ const questoes = [
         desafio: true 
     },
     { // Questao 4
-        pergunta: "Em uma configuração paralela de blocos em um DBC:",
+        pergunta: "EM UMA CONFIGURAÇÃO PARALELA DE BLOCOS EM UM DBC : ",
         opcoes: [
             "A falha de um bloco implica falha do sistema.",
             "A confiabilidade total é o produto das confiabilidades individuais.",
@@ -38,7 +38,7 @@ const questoes = [
         respostaCorreta: "O sistema falha somente se todos os blocos falharem."
     },
     { // Questao 5
-        pergunta: "A principal finalidade de um DBC é:",
+        pergunta: "A PRINCIPAL FINALIDADE DE UM DBC É : ",
         opcoes: [
             "Reduzir o tempo de execução de um algoritmo.",
             "Avaliar a confiabilidade global de um sistema com base nas confiabilidades dos componentes.",
@@ -47,7 +47,7 @@ const questoes = [
         respostaCorreta: "Avaliar a confiabilidade global de um sistema com base nas confiabilidades dos componentes."
     },
     { // Questao 6 - PONTUAÇÃO DUPLA
-        pergunta: "Em um sistema em SÉRIE com confiabilidades R1 e R2, a confiabilidade total (RT) é dada por:",
+        pergunta: "EM UM SISTEMA EM SÉRIE CONFIABILIDADE R1 E R2, A CONFIABILIDADE TOTAL (RT) É DADA POR : ",
         opcoes: [
             "RT = R1 + R2",
             "RT = R1 * R2", 
@@ -57,7 +57,7 @@ const questoes = [
         desafio: true 
     },
     { // Questao 7
-        pergunta: "Qual é uma vantagem do uso de Diagramas de Blocos de Confiabilidade?",
+        pergunta: "QUAL É A VANTAGEM DO USO DE DIAGRAMAS DE BLOCO DE CONFIABILIDADE ? ",
         opcoes: [
             "Simplificam a modelagem de sistemas complexos em termos de confiabilidade. ",
             "Eliminam a necessidade de dados de falha dos componentes.",
@@ -66,13 +66,13 @@ const questoes = [
         respostaCorreta: "Simplificam a modelagem de sistemas complexos em termos de confiabilidade. "
     },
     { // Questao 8 - PONTUAÇÃO DUPLA
-        pergunta: "Qual software pode ser utilizado para a construção de DBCs e análise de confiabilidade?",
+        pergunta: "QUAL SOFTWARE PODE SER UTILIZADO PARA A CONSTRUÇÃO DE DBCs e realizar análise de confiabilidade ?",
         opcoes: [
-            "Cisco Packet Tracer",
-            "Reliability Workbench",
+            "Quartus Prime",
+            "Mercury",
             "Mars"
         ],
-        respostaCorreta: "Reliability Workbench",
+        respostaCorreta: "Mercury",
         desafio: true 
     } 
 ];
