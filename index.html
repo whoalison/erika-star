@@ -18,12 +18,13 @@
         <div class="sol"></div> 
         
     <div id="tela-inicial" class="tela ativo">
-        <h1 class="titulo-pixel">DIAGRAMAS DE BLOCOS DE CONFIABILIDADE</h1>
+        <h1 class="titulo-pixel">DIAGRAMA DE BLOCOS DE CONFIABILIDADE</h1>
         <h2 class="titulo-principal">ERIKA STAR</h2>
         <p>INICIAR JORNADA!</p>
         <button id="start-button" class="botao-pixel">START</button>
         
         <div class="estrela estrela-1"></div>
+        <div id="elemento-extra-inicial" class="cenario"></div>
         
         <div id="erika-inicial" class="personagem"></div>
         <div id="arbusto-inicial" class="cenario"></div>
@@ -41,7 +42,7 @@
             
             <div id="caixa-dialogo-professor" class="caixa-dialogo">
                 <p>Prof Fernando Aires :</p>
-                <p>Nesta jornada você irá enfrentar 8 perguntas e 3 desafios! O desafio acontece a noite e possui o dobro da pontuação. Você possui 3 vidas, boa sorte!</p>
+                <p>Nesta jornada você irá enfrentar perguntas e desafios! Os desafios acontecem a noite e possui o dobro da pontuação. Você possui 3 vidas, boa sorte!</p>
                 <button id="ok-professor" class="botao-pixel">OK</button>
             </div>
             
@@ -56,6 +57,7 @@
         <div id="tela-game-over" class="tela">
             <h1 class="titulo-gameover">GAME OVER</h1>
             <button id="restart-button-fail" class="botao-pixel">RESTART</button>
+            <div id="elemento-extra-inicial" class="cenario"></div> <div id="erika-gameover" class="personagem"></div>
             <div id="erika-gameover" class="personagem"></div> 
         </div>
 
@@ -63,6 +65,7 @@
              <h1>PARABÉNS! VOCÊ VENCEU!</h1>
             <p>Seu Score Final: <span id="final-score">0</span></p>
             <button id="restart-button-win" class="botao-pixel">RECOMEÇAR</button>
+            <div id="elemento-extra-inicial" class="cenario"></div> <div id="erika-gameover" class="personagem"></div>
             <div id="erika-vitoria" class="personagem"></div>
             <div id="trofeu-vitoria" class="cenario"></div>
         </div>
